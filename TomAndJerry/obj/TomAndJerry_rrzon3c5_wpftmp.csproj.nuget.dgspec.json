@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomAndJerry\\TomAndJerry.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomAndJerry\\TomAndJerry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomAndJerry\\TomAndJerry.csproj",
+        "projectName": "TomAndJerry",
+        "projectPath": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomAndJerry\\TomAndJerry.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomAndJerry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\TomJarryClassificator_ConsoleApp2.csproj": {
+                "projectPath": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\TomJarryClassificator_ConsoleApp2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\TomJarryClassificator_ConsoleApp2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\TomJarryClassificator_ConsoleApp2.csproj",
+        "projectName": "TomJarryClassificator_ConsoleApp2",
+        "projectPath": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\TomJarryClassificator_ConsoleApp2.csproj",
+        "packagesPath": "C:\\Users\\semen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\semen\\source\\repos\\TomAndJerry\\TomJarryClassificator_ConsoleApp2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\semen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.ML.ImageAnalytics": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
